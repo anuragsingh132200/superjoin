@@ -13,7 +13,6 @@ RUN npm install
 COPY src ./src
 COPY views ./views
 COPY public ./public
-COPY credentials.json ./credentials.json
 
 # Build TypeScript
 RUN npm run build
